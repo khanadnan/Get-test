@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+.navbar-inverse{
+	background-color: #512DA8;
+}
+nav{
+	border-radius: 0px !important;
+	padding-bottom: 15px;
+}
+.menu-title{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: black;
+	font-family: 'Anton',sans-serif;
+}
+.navbar-brand h1{
+	margin-top:0 !important;
+	font-family: 'Abril Fatface',serif;
+	color: 	white;
+	margin-bottom:8px !important;
+}
+.navbar-toggle{
+	margin-top: 15px;
+}
+body{
+	background-color: #D1C4E9;
+}
+section{
+	margin: 25px;
+	padding:10px;
+	background-color:  #9575CD;
+	border: 1px solid black;
+}
+section h3{
+	font-family: 'Lora', sans-serif;
+	color: 	black;
+	font-style: italic;
+	font-weight: bold;
+}
+section p{
+	font-family: 'Dosis',serif;
+	color: 	white;
+	font-style: italic;
+	font-size: 30px;
+}
+li{
+	border-top: 3px solid  #512DA8;
+}
+li a{
+	color:white !important;
+}
+
+ul{
+	 background-color:  #9575CD;
+	 margin-left: 10px !important; 
+	 margin-right: 10px !important;
+}
+
+@media(max-width: 768px){
+	section{
+		margin:20px 40px;
+	}
+}
